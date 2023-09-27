@@ -8,9 +8,13 @@ plugins {
 }
 
 repositories {
-    mavenLocal()
+    // mavenLocal()
+
     maven {
         url = uri('https://maven.wso2.org/nexus/content/groups/wso2-public/')
+        metadataSources {
+          artifact()
+        }
     }
 
     maven {
@@ -25,11 +29,11 @@ repositories {
         url = uri('https://repo.maven.apache.org/maven2/')
     }
 
-    maven {
-        url = uri('http://maven.wso2.org/nexus/content/groups/wso2-public/')
+    // maven {
+    //     url = uri('http://maven.wso2.org/nexus/content/groups/wso2-public/')
 
-        // allowInsecureProtocol = true
-    }
+    //     // allowInsecureProtocol = true
+    // }
 }
 
 group = 'org.wso2.carbon.apimgt'

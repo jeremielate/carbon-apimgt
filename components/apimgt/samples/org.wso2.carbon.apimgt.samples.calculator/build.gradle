@@ -3,8 +3,8 @@
  */
 
 plugins {
-    id 'org.wso2.carbon.apimgt.java-conventions'
     id 'war'
+    id 'org.wso2.carbon.apimgt.java-conventions'
 }
 
 dependencies {
