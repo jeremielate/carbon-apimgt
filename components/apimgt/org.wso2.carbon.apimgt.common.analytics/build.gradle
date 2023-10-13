@@ -3,7 +3,6 @@
  */
 
 plugins {
-    id 'war'
     id 'org.wso2.carbon.apimgt.java-conventions'
 }
 
