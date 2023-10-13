@@ -26,7 +26,6 @@ dependencies {
     api 'org.wso2.carbon.identity.governance:org.wso2.carbon.identity.recovery:1.4.72'
     api 'org.wso2.carbon.governance:org.wso2.carbon.governance.registry.extensions:4.8.21'
     api 'org.wso2.orbit.com.h2database:h2:1.4.199.wso2v1'
-    api 'commons-codec:commons-codec:1.14'
     api project(':org.wso2.carbon.apimgt.handlers.security.stub')
     api 'org.wso2.carbon:org.wso2.carbon.utils:4.6.2'
     api 'com.google.code.gson:gson:2.8.5'
@@ -81,6 +80,9 @@ dependencies {
     api project(':org.wso2.carbon.apimgt.common.gateway')
     api 'org.wso2.orbit.org.everit.json:org.everit.json.schema:1.5.0.wso2.v2'
     api 'io.apicurio:apicurio-data-models:1.1.5'
+    api 'org.apache.velocity:velocity:1.7'
+    // api 'commons-codec:commons-codec:1.14'
+    api 'org.wso2.orbit.commons-codec:commons-codec:1.14.0.wso2v1'
     testImplementation 'com.ibm.icu:icu4j:58.1'
     testImplementation 'org.mockito:mockito-all:1.10.19'
     testImplementation 'org.hamcrest:hamcrest-all:1.3'

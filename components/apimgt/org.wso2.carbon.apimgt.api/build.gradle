@@ -13,6 +13,9 @@ dependencies {
     api 'org.apache.commons:commons-lang3:3.10'
     api 'org.wso2.carbon.identity.framework:org.wso2.carbon.user.mgt.stub:5.18.187'
     api 'org.wso2.carbon:org.wso2.carbon.user.api:4.5.2'
+
+    testImplementation 'org.powermock:powermock-module-junit4:1.7.4'
+    testImplementation 'junit:junit:4.12'
 }
 
 description = 'WSO2 Carbon - Api for API Management'
